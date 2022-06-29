@@ -23,7 +23,7 @@ else:
     sys.exit(-1)
 
 owmapi = owm.OWM(apikey)
-
+print("test")
 r = owmapi.get_current_by_city('Pittsburgh', 'PA', 'USA')
 print(r)
 
