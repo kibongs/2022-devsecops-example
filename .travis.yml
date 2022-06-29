@@ -10,5 +10,5 @@ after_success:
   - coveralls
 addons:
   sonarcloud:
-    organization: "kibongs"
+    organization: kibongs
 
