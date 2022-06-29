@@ -24,6 +24,7 @@ else:
 
 owmapi = owm.OWM(apikey)
 
+print("1")
 r = owmapi.get_current_by_city('Pittsburgh', 'PA', 'USA')
 print(r)
 
